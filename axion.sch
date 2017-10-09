@@ -32640,20 +32640,6 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <wire x1="20.32" y1="-96.52" x2="35.56" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="USBDP"/>
-<wire x1="-114.3" y1="22.86" x2="-104.14" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="22.86" x2="-93.98" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="20.32" x2="-104.14" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="20.32" x2="-104.14" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-104.14" y1="22.86" x2="-104.14" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="USBDM"/>
-<wire x1="-104.14" y1="25.4" x2="-93.98" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="X4" gate="C" pin="2"/>
-<pinref part="X4" gate="C" pin="3"/>
-</segment>
-</net>
 <net name="I2S_RXD" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="B6"/>
@@ -33633,6 +33619,22 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <pinref part="R37" gate="G$1" pin="1"/>
 <junction x="139.7" y="-91.44"/>
 <wire x1="139.7" y1="-91.44" x2="144.78" y2="-91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="X4" gate="C" pin="2"/>
+<pinref part="U4" gate="G$1" pin="USBDP"/>
+<wire x1="-114.3" y1="22.86" x2="-93.98" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="USBDM"/>
+<wire x1="-93.98" y1="25.4" x2="-104.14" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="25.4" x2="-104.14" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="X4" gate="C" pin="3"/>
+<wire x1="-104.14" y1="20.32" x2="-114.3" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
