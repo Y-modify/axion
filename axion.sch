@@ -32920,9 +32920,9 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <label x="-40.64" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-27.94" y1="48.26" x2="-22.86" y2="48.26" width="0.1524" layer="91"/>
-<label x="-25.4" y="48.26" size="1.778" layer="95"/>
-<pinref part="X2" gate="C" pin="2"/>
+<wire x1="-27.94" y1="45.72" x2="-22.86" y2="45.72" width="0.1524" layer="91"/>
+<label x="-25.4" y="45.72" size="1.778" layer="95"/>
+<pinref part="X2" gate="C" pin="3"/>
 </segment>
 </net>
 <net name="USB_DN" class="0">
@@ -32932,9 +32932,9 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <label x="-40.64" y="-33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-27.94" y1="45.72" x2="-22.86" y2="45.72" width="0.1524" layer="91"/>
-<label x="-25.4" y="45.72" size="1.778" layer="95"/>
-<pinref part="X2" gate="C" pin="3"/>
+<wire x1="-27.94" y1="48.26" x2="-22.86" y2="48.26" width="0.1524" layer="91"/>
+<label x="-25.4" y="48.26" size="1.778" layer="95"/>
+<pinref part="X2" gate="C" pin="2"/>
 </segment>
 </net>
 <net name="USB_VBUS" class="0">
