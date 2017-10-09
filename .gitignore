@@ -126,4 +126,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-
+# generated files
+dist
