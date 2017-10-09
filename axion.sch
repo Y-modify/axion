@@ -30770,9 +30770,6 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <part name="C26" library="resistor" deviceset="CPOL-EU" device="E2-5" value="10u"/>
 <part name="R26" library="resistor" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="AGND8" library="supply0" deviceset="AGND" device=""/>
-<part name="R30" library="resistor" deviceset="R-US_" device="M1206" value="10k"/>
-<part name="R36" library="resistor" deviceset="R-US_" device="M1206" value="10k"/>
-<part name="V25" library="supply0" deviceset="+3V3" device=""/>
 <part name="JP27" library="pinhead" deviceset="PINHD-1X2" device="" value="PCTRL"/>
 <part name="R37" library="resistor" deviceset="R-US_" device="M1206" value="10k"/>
 <part name="DGND25" library="supply0" deviceset="DGND" device=""/>
@@ -31099,9 +31096,6 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <instance part="C26" gate="G$1" x="45.72" y="-124.46" rot="R90"/>
 <instance part="R26" gate="G$1" x="53.34" y="-129.54" rot="R270"/>
 <instance part="AGND8" gate="VR1" x="53.34" y="-137.16"/>
-<instance part="R30" gate="G$1" x="231.14" y="-66.04" rot="R90"/>
-<instance part="R36" gate="G$1" x="175.26" y="-73.66" rot="R90"/>
-<instance part="V25" gate="G$1" x="231.14" y="-58.42"/>
 <instance part="JP27" gate="G$1" x="147.32" y="-93.98"/>
 <instance part="R37" gate="G$1" x="139.7" y="-86.36" rot="R90"/>
 <instance part="DGND25" gate="G$1" x="139.7" y="-101.6"/>
@@ -31764,10 +31758,6 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <pinref part="U11" gate="G$1" pin="DCVDD"/>
 <wire x1="-60.96" y1="-71.12" x2="-63.5" y2="-71.12" width="0.1524" layer="91"/>
 <junction x="-60.96" y="-71.12"/>
-</segment>
-<segment>
-<pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="V25" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="R37" gate="G$1" pin="2"/>
@@ -32540,8 +32530,7 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <segment>
 <pinref part="U5" gate="A" pin="SDA2"/>
 <label x="218.44" y="-71.12" size="1.778" layer="95"/>
-<pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="-71.12" x2="231.14" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-71.12" x2="220.98" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP23" gate="A" pin="2"/>
@@ -32570,8 +32559,7 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <segment>
 <pinref part="U5" gate="A" pin="SCL2"/>
 <label x="175.26" y="-78.74" size="1.778" layer="95"/>
-<pinref part="R36" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="-78.74" x2="175.26" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="-78.74" x2="180.34" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP23" gate="A" pin="1"/>
@@ -32906,10 +32894,7 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <pinref part="U5" gate="A" pin="VREF2"/>
 <wire x1="182.88" y1="-71.12" x2="177.8" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="-71.12" x2="177.8" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="-68.58" x2="175.26" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="R36" gate="G$1" pin="2"/>
-<junction x="175.26" y="-68.58"/>
-<wire x1="175.26" y1="-68.58" x2="172.72" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-68.58" x2="172.72" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="172.72" y="-68.58"/>
 </segment>
 </net>
