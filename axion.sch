@@ -30808,6 +30808,8 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <attribute name="TP_SIGNAL_NAME" value="1V8SCL"/>
 </part>
 <part name="X4" library="hirose-zx" deviceset="ZX62R-B-5P" device=""/>
+<part name="DGND34" library="supply0" deviceset="DGND" device=""/>
+<part name="V43" library="supply0" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31138,6 +31140,8 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 </instance>
 <instance part="X4" gate="C" x="-119.38" y="20.32" rot="MR0"/>
 <instance part="X4" gate="S" x="-124.46" y="10.16" rot="MR0"/>
+<instance part="DGND34" gate="G$1" x="78.74" y="-17.78"/>
+<instance part="V43" gate="G$1" x="78.74" y="-7.62"/>
 </instances>
 <busses>
 </busses>
@@ -31648,6 +31652,11 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <pinref part="TP1" gate="G$1" pin="TP"/>
 <pinref part="DGND26" gate="G$1" pin="DGND"/>
 </segment>
+<segment>
+<pinref part="JP25" gate="G$1" pin="VSS"/>
+<pinref part="DGND34" gate="G$1" pin="DGND"/>
+<wire x1="91.44" y1="-15.24" x2="78.74" y2="-15.24" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="2">
 <segment>
@@ -31768,6 +31777,11 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <pinref part="TP6" gate="G$1" pin="TP"/>
 <pinref part="V34" gate="G$1" pin="+3V3"/>
 <wire x1="-111.76" y1="50.8" x2="-116.84" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP25" gate="G$1" pin="VCC"/>
+<pinref part="V43" gate="G$1" pin="+3V3"/>
+<wire x1="78.74" y1="-10.16" x2="91.44" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="2">
@@ -33199,18 +33213,6 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <pinref part="JP25" gate="G$1" pin="CARD-CHECK1"/>
 <wire x1="129.54" y1="0" x2="132.08" y2="0" width="0.1524" layer="91"/>
 <label x="132.08" y="0" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="JP25" gate="G$1" pin="VCC"/>
-<wire x1="91.44" y1="-10.16" x2="88.9" y2="-10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$51" class="0">
-<segment>
-<pinref part="JP25" gate="G$1" pin="VSS"/>
-<wire x1="91.44" y1="-15.24" x2="88.9" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$50" class="0">
