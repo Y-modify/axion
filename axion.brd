@@ -10921,17 +10921,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="UART_TXD">
 <contactref element="U2" pad="27"/>
-<contactref element="U4" pad="1"/>
 <wire x1="61.1124" y1="50.4444" x2="61.1124" y2="51.1302" width="0.1524" layer="1"/>
 <wire x1="63.246" y1="48.3108" x2="61.1124" y2="50.4444" width="0.1524" layer="1"/>
 <wire x1="82.6008" y1="48.3108" x2="63.246" y2="48.3108" width="0.1524" layer="1"/>
 <wire x1="84.8868" y1="50.5968" x2="82.6008" y2="48.3108" width="0.1524" layer="1"/>
 <wire x1="61.1124" y1="51.1302" x2="61.0728" y2="51.1383" width="0.1524" layer="1"/>
-<wire x1="84.8868" y1="50.5968" x2="84.9409" y2="50.6188" width="0.1524" layer="1"/>
+<contactref element="U4" pad="5"/>
+<wire x1="84.8868" y1="50.5968" x2="84.9409" y2="53.2188" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART_RXD">
 <contactref element="U2" pad="22"/>
-<contactref element="U4" pad="5"/>
 <wire x1="59.8932" y1="54.864" x2="59.8932" y2="53.7972" width="0.1524" layer="1"/>
 <wire x1="59.8932" y1="56.9976" x2="59.8932" y2="54.864" width="0.1524" layer="16"/>
 <wire x1="62.1792" y1="59.2836" x2="59.8932" y2="56.9976" width="0.1524" layer="16"/>
@@ -10947,11 +10946,12 @@ design rules under a new name.</description>
 <wire x1="84.3534" y1="53.1876" x2="83.7438" y2="52.578" width="0.1524" layer="1"/>
 <wire x1="84.8868" y1="53.1876" x2="84.3534" y2="53.1876" width="0.1524" layer="1"/>
 <wire x1="59.8932" y1="53.7972" x2="59.8728" y2="53.7783" width="0.1524" layer="1"/>
-<wire x1="84.8868" y1="53.1876" x2="84.9409" y2="53.2188" width="0.1524" layer="1"/>
 <via x="59.8932" y="54.864" extent="1-16" drill="0.3048"/>
 <via x="62.4078" y="59.2836" extent="1-16" drill="0.3048"/>
 <via x="75.3618" y="56.0832" extent="1-16" drill="0.3048"/>
 <via x="79.248" y="52.578" extent="1-16" drill="0.3048"/>
+<contactref element="U4" pad="1"/>
+<wire x1="83.7438" y1="52.578" x2="84.9409" y2="50.6188" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="2P0">
 <contactref element="R3" pad="1"/>

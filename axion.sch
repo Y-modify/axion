@@ -31880,9 +31880,9 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <label x="22.86" y="-58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="TXD"/>
-<wire x1="-63.5" y1="25.4" x2="-60.96" y2="25.4" width="0.1524" layer="91"/>
-<label x="-63.5" y="25.4" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="RXD"/>
+<wire x1="-63.5" y1="22.86" x2="-60.96" y2="22.86" width="0.1524" layer="91"/>
+<label x="-63.5" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART_RXD" class="0">
@@ -31892,9 +31892,9 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <label x="22.86" y="-60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="RXD"/>
-<wire x1="-63.5" y1="22.86" x2="-60.96" y2="22.86" width="0.1524" layer="91"/>
-<label x="-63.5" y="22.86" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="TXD"/>
+<wire x1="-63.5" y1="25.4" x2="-60.96" y2="25.4" width="0.1524" layer="91"/>
+<label x="-63.5" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2P0" class="0">
