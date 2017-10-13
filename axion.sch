@@ -10,20 +10,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
@@ -30974,7 +30974,7 @@ High-power, low thermal resistance package.</description>
 <part name="C29" library="resistor" deviceset="C-EU" device="C1608" value="0.01u"/>
 <part name="AGND9" library="supply0" deviceset="AGND" device=""/>
 <part name="AGND10" library="supply0" deviceset="AGND" device=""/>
-<part name="JP26" library="pinhead" deviceset="PINHD-1X5" device="" value="HDC1000 module"/>
+<part name="JP26" library="pinhead" deviceset="PINHD-1X5" device="" value="HDC1000"/>
 <part name="V31" library="supply0" deviceset="+3V3" device=""/>
 <part name="DGND27" library="supply0" deviceset="DGND" device=""/>
 <part name="JP30" library="pinhead" deviceset="PINHD-1X2" device="" value="FAN"/>
@@ -31021,7 +31021,7 @@ High-power, low thermal resistance package.</description>
 <part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="R40" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
 <part name="C17" library="resistor" deviceset="CPOL-EU" device="E2-5" value="1u"/>
-<part name="C24" library="resistor" deviceset="C-EU" device="C0805" value="220p"/>
+<part name="C24" library="resistor" deviceset="C-EU" device="C1608" value="220p"/>
 <part name="AGND4" library="supply0" deviceset="AGND" device=""/>
 <part name="R41" library="resistor" deviceset="R-US_" device="R0603" value="5.6k"/>
 <part name="X3" library="audio-connectors" deviceset="ST-005-G" device=""/>
@@ -31394,11 +31394,11 @@ High-power, low thermal resistance package.</description>
 </instance>
 <instance part="TP7" gate="G$1" x="35.56" y="-91.44" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" x="36.83" y="-92.71" size="1.778" layer="97"/>
-<attribute name="NAME" x="34.29" y="-90.17" size="1.778" layer="95"/>
+<attribute name="NAME" x="36.83" y="-90.17" size="1.778" layer="95"/>
 </instance>
-<instance part="TP8" gate="G$1" x="35.56" y="-93.98" smashed="yes">
-<attribute name="TP_SIGNAL_NAME" x="36.83" y="-95.25" size="1.778" layer="97"/>
-<attribute name="NAME" x="34.29" y="-97.79" size="1.778" layer="95"/>
+<instance part="TP8" gate="G$1" x="38.1" y="-93.98" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" x="39.37" y="-97.79" size="1.778" layer="97"/>
+<attribute name="NAME" x="39.37" y="-95.25" size="1.778" layer="95"/>
 </instance>
 <instance part="X4" gate="C" x="-119.38" y="20.32" rot="MR0"/>
 <instance part="X4" gate="S" x="-124.46" y="10.16" rot="MR0"/>
@@ -31796,6 +31796,7 @@ High-power, low thermal resistance package.</description>
 <pinref part="DGND8" gate="G$1" pin="DGND"/>
 <pinref part="U6" gate="G$1" pin="GND"/>
 <wire x1="58.42" y1="-38.1" x2="68.58" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="68.58" y="-38.1"/>
 </segment>
 <segment>
 <pinref part="DGND33" gate="G$1" pin="DGND"/>
@@ -32859,8 +32860,11 @@ High-power, low thermal resistance package.</description>
 <label x="208.28" y="-73.66" size="1.778" layer="95"/>
 <junction x="205.74" y="-73.66"/>
 </segment>
-</net>
-<net name="5VCLK" class="0">
+<segment>
+<pinref part="U11" gate="G$1" pin="SCLK"/>
+<wire x1="-91.44" y1="-104.14" x2="-93.98" y2="-104.14" width="0.1524" layer="91"/>
+<label x="-101.6" y="-104.14" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SCL"/>
 <wire x1="17.78" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
@@ -32910,7 +32914,7 @@ High-power, low thermal resistance package.</description>
 <pinref part="U2" gate="G$1" pin="GP19_I2C_1_SCL"/>
 <label x="22.86" y="-96.52" size="1.778" layer="95"/>
 <pinref part="TP8" gate="G$1" pin="TP"/>
-<wire x1="20.32" y1="-96.52" x2="35.56" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-96.52" x2="38.1" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
@@ -33656,13 +33660,6 @@ High-power, low thermal resistance package.</description>
 <wire x1="-73.66" y1="-66.04" x2="-73.66" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3V3SCK" class="0">
-<segment>
-<pinref part="U11" gate="G$1" pin="SCLK"/>
-<wire x1="-91.44" y1="-104.14" x2="-93.98" y2="-104.14" width="0.1524" layer="91"/>
-<label x="-101.6" y="-104.14" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$70" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="VMID"/>
@@ -33743,8 +33740,6 @@ High-power, low thermal resistance package.</description>
 <wire x1="20.32" y1="-76.2" x2="22.86" y2="-76.2" width="0.1524" layer="91"/>
 <label x="22.86" y="-76.2" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="1V8I2S_RTX" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="A6"/>
 <wire x1="83.82" y1="-86.36" x2="81.28" y2="-86.36" width="0.1524" layer="91"/>
