@@ -9,20 +9,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -31,8 +31,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -40,19 +40,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -30527,95 +30527,95 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <part name="JP1" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+2" library="supply1" deviceset="V+" device=""/>
 <part name="GND1" library="supply0" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+6" library="supply1" deviceset="V+" device=""/>
 <part name="GND5" library="supply0" deviceset="GND" device=""/>
-<part name="R6" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+10" library="supply1" deviceset="V+" device=""/>
 <part name="GND10" library="supply0" deviceset="GND" device=""/>
-<part name="R10" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+14" library="supply1" deviceset="V+" device=""/>
 <part name="GND15" library="supply0" deviceset="GND" device=""/>
-<part name="R14" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R14" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+16" library="supply1" deviceset="V+" device=""/>
 <part name="GND17" library="supply0" deviceset="GND" device=""/>
-<part name="R16" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP6" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+18" library="supply1" deviceset="V+" device=""/>
 <part name="GND19" library="supply0" deviceset="GND" device=""/>
-<part name="R19" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R19" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP7" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+20" library="supply1" deviceset="V+" device=""/>
 <part name="GND21" library="supply0" deviceset="GND" device=""/>
-<part name="R21" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R21" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP8" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+22" library="supply1" deviceset="V+" device=""/>
 <part name="GND23" library="supply0" deviceset="GND" device=""/>
-<part name="R23" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R23" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP9" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
 <part name="GND2" library="supply0" deviceset="GND" device=""/>
-<part name="R2" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP10" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
 <part name="GND6" library="supply0" deviceset="GND" device=""/>
-<part name="R7" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP11" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+11" library="supply1" deviceset="V+" device=""/>
 <part name="GND11" library="supply0" deviceset="GND" device=""/>
-<part name="R11" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP20" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+5" library="supply1" deviceset="V+" device=""/>
 <part name="GND4" library="supply0" deviceset="GND" device=""/>
-<part name="R4" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP21" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+9" library="supply1" deviceset="V+" device=""/>
 <part name="GND8" library="supply0" deviceset="GND" device=""/>
-<part name="R9" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP22" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+13" library="supply1" deviceset="V+" device=""/>
 <part name="GND13" library="supply0" deviceset="GND" device=""/>
-<part name="R13" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP12" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
 <part name="GND3" library="supply0" deviceset="GND" device=""/>
-<part name="R3" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP13" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+8" library="supply1" deviceset="V+" device=""/>
 <part name="GND7" library="supply0" deviceset="GND" device=""/>
-<part name="R8" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP14" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+12" library="supply1" deviceset="V+" device=""/>
 <part name="GND12" library="supply0" deviceset="GND" device=""/>
-<part name="R12" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP15" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+15" library="supply1" deviceset="V+" device=""/>
 <part name="GND16" library="supply0" deviceset="GND" device=""/>
-<part name="R15" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP16" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+17" library="supply1" deviceset="V+" device=""/>
 <part name="GND18" library="supply0" deviceset="GND" device=""/>
-<part name="R17" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP17" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+19" library="supply1" deviceset="V+" device=""/>
 <part name="GND20" library="supply0" deviceset="GND" device=""/>
-<part name="R20" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R20" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP18" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+21" library="supply1" deviceset="V+" device=""/>
 <part name="GND22" library="supply0" deviceset="GND" device=""/>
-<part name="R22" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R22" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="JP19" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="P+23" library="supply1" deviceset="V+" device=""/>
 <part name="GND24" library="supply0" deviceset="GND" device=""/>
-<part name="R24" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R24" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="DGND12" library="supply0" deviceset="DGND" device=""/>
 <part name="DGND5" library="supply0" deviceset="DGND" device=""/>
-<part name="R5" library="resistor" deviceset="R-US_" device="M1206" value="10k"/>
-<part name="R18" library="resistor" deviceset="R-US_" device="M1206" value="10k"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R18" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="DGND2" library="supply0" deviceset="DGND" device=""/>
 <part name="DGND10" library="supply0" deviceset="DGND" device=""/>
 <part name="V19" library="supply0" deviceset="+1V8" device=""/>
@@ -30651,7 +30651,7 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <part name="DGND14" library="supply0" deviceset="DGND" device=""/>
 <part name="C11" library="resistor" deviceset="C-EU" device="C1608" value="0.1u"/>
 <part name="DGND13" library="supply0" deviceset="DGND" device=""/>
-<part name="R25" library="resistor" deviceset="R-US_" device="0309/V" value="200k"/>
+<part name="R25" library="resistor" deviceset="R-US_" device="R0603" value="200k"/>
 <part name="C14" library="resistor" deviceset="C-EU" device="C1608" value="0.1u"/>
 <part name="C15" library="resistor" deviceset="C-EU" device="C1608" value="0.1u"/>
 <part name="DGND18" library="supply0" deviceset="DGND" device=""/>
@@ -30698,7 +30698,7 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <part name="AGND6" library="supply0" deviceset="AGND" device=""/>
 <part name="AGND7" library="supply0" deviceset="AGND" device=""/>
 <part name="V30" library="supply0" deviceset="AVCC" device=""/>
-<part name="R27" library="resistor" deviceset="R-US_" device="R1206" value="2.2k"/>
+<part name="R27" library="resistor" deviceset="R-US_" device="R0603" value="2.2k"/>
 <part name="C27" library="resistor" deviceset="C-EU" device="C1608" value="0.022u"/>
 <part name="R28" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R29" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
@@ -30715,16 +30715,16 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <part name="V33" library="supply0" deviceset="+3V3" device=""/>
 <part name="DGND28" library="supply0" deviceset="DGND" device=""/>
 <part name="LED1" library="generic" deviceset="LED" device="1608"/>
-<part name="R31" library="resistor" deviceset="R-US_" device="M1206" value="220"/>
+<part name="R31" library="resistor" deviceset="R-US_" device="R0603" value="220"/>
 <part name="DGND29" library="supply0" deviceset="DGND" device=""/>
 <part name="DGND30" library="supply0" deviceset="DGND" device=""/>
 <part name="DGND32" library="supply0" deviceset="DGND" device=""/>
 <part name="U10" library="MIC2039" deviceset="MIC2039" device=""/>
 <part name="R33" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R32" library="resistor" deviceset="R-US_" device="M1206" value="10k"/>
+<part name="R32" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="V35" library="supply0" deviceset="+1V8" device=""/>
 <part name="DGND31" library="supply0" deviceset="DGND" device=""/>
-<part name="R34" library="resistor" deviceset="R-US_" device="M1206" value="576"/>
+<part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="576"/>
 <part name="DGND35" library="supply0" deviceset="DGND" device=""/>
 <part name="V36" library="supply0" deviceset="+5V" device=""/>
 <part name="JP32" library="pinhead" deviceset="PINHD-1X2" device="" value="MIC"/>
@@ -30742,7 +30742,7 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <part name="DGND38" library="supply0" deviceset="DGND" device=""/>
 <part name="DGND39" library="supply0" deviceset="DGND" device=""/>
 <part name="AGND15" library="supply0" deviceset="AGND" device=""/>
-<part name="R35" library="resistor" deviceset="R-US_" device="R1206" value="680"/>
+<part name="R35" library="resistor" deviceset="R-US_" device="R0603" value="680"/>
 <part name="AGND16" library="supply0" deviceset="AGND" device=""/>
 <part name="C16" library="resistor" deviceset="C-EU" device="C1608" value="0.1u"/>
 <part name="DGND20" library="supply0" deviceset="DGND" device=""/>
@@ -30751,27 +30751,27 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <part name="SJ1" library="Jumper" deviceset="SJ2W" device=""/>
 <part name="I2" library="Inductor" deviceset="BLM" device="18"/>
 <part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="47k"/>
-<part name="R40" library="resistor" deviceset="R-US_" device="R1206" value="330"/>
+<part name="R40" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
 <part name="C17" library="resistor" deviceset="CPOL-EU" device="E2-5" value="1u"/>
 <part name="C24" library="resistor" deviceset="C-EU" device="C0805" value="220p"/>
 <part name="AGND4" library="supply0" deviceset="AGND" device=""/>
-<part name="R41" library="resistor" deviceset="R-US_" device="R1206" value="5.6k"/>
+<part name="R41" library="resistor" deviceset="R-US_" device="R0603" value="5.6k"/>
 <part name="X3" library="audio-connectors" deviceset="ST-005-G" device=""/>
 <part name="AGND5" library="supply0" deviceset="AGND" device=""/>
 <part name="C25" library="resistor" deviceset="CPOL-EU" device="E2-5" value="1u"/>
 <part name="C30" library="resistor" deviceset="CPOL-EU" device="E2-5" value="1u"/>
 <part name="C31" library="resistor" deviceset="C-EU" device="C0805" value="220p"/>
 <part name="C36" library="resistor" deviceset="C-EU" device="C0805" value="220p"/>
-<part name="R42" library="resistor" deviceset="R-US_" device="R1206" value="5.6k"/>
-<part name="R43" library="resistor" deviceset="R-US_" device="R1206" value="5.6k"/>
-<part name="R44" library="resistor" deviceset="R-US_" device="R1206" value="5.6k"/>
+<part name="R42" library="resistor" deviceset="R-US_" device="R0603" value="5.6k"/>
+<part name="R43" library="resistor" deviceset="R-US_" device="R0603" value="5.6k"/>
+<part name="R44" library="resistor" deviceset="R-US_" device="R0603" value="5.6k"/>
 <part name="AGND11" library="supply0" deviceset="AGND" device=""/>
 <part name="AGND12" library="supply0" deviceset="AGND" device=""/>
 <part name="C26" library="resistor" deviceset="CPOL-EU" device="E2-5" value="10u"/>
 <part name="R26" library="resistor" deviceset="R-US_" device="R0603" value="47k"/>
 <part name="AGND8" library="supply0" deviceset="AGND" device=""/>
 <part name="JP27" library="pinhead" deviceset="PINHD-1X2" device="" value="PCTRL"/>
-<part name="R37" library="resistor" deviceset="R-US_" device="M1206" value="10k"/>
+<part name="R37" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="DGND25" library="supply0" deviceset="DGND" device=""/>
 <part name="V26" library="supply0" deviceset="+3V3" device=""/>
 <part name="TP1" library="testpad" deviceset="TESTPAD-*" device="R-AUTO-0.5">
@@ -30807,8 +30807,8 @@ Source: http://akizukidenshi.com/download/ds/switronic/ST-005-G.pdf
 <part name="X4" library="hirose-zx" deviceset="ZX62R-B-5P" device=""/>
 <part name="DGND34" library="supply0" deviceset="DGND" device=""/>
 <part name="V43" library="supply0" deviceset="+3V3" device=""/>
-<part name="R30" library="resistor" deviceset="R-US_" device="M1206" value="820"/>
-<part name="R36" library="resistor" deviceset="R-US_" device="M1206" value="820"/>
+<part name="R30" library="resistor" deviceset="R-US_" device="R0603" value="820"/>
+<part name="R36" library="resistor" deviceset="R-US_" device="R0603" value="820"/>
 <part name="V25" library="supply0" deviceset="+1V8" device=""/>
 </parts>
 <sheets>
