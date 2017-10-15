@@ -31089,7 +31089,7 @@ High-power, low thermal resistance package.</description>
 <sheet>
 <plain>
 <text x="194.31" y="-152.4" size="2.1844" layer="94" font="vector">Copyright (c) 2016</text>
-<text x="264.16" y="-139.7" size="2.54" layer="94" font="vector">v0.9.2</text>
+<text x="264.16" y="-139.7" size="2.54" layer="94" font="vector">v1.0.0</text>
 <text x="213.36" y="-136.144" size="2.54" layer="94" font="vector">YMDOC-MXSCH</text>
 <text x="68.58" y="-114.3" size="1.778" layer="91">GAIN=150k/Ｒｉn*2 (2~20)</text>
 </plain>
