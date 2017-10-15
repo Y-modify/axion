@@ -47,11 +47,11 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -59,8 +59,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -166,7 +166,7 @@
 <wire x1="62.5" y1="39.5" x2="62.5" y2="0" width="0" layer="20"/>
 <wire x1="62.5" y1="39.5" x2="37.5" y2="39.5" width="0" layer="20"/>
 <text x="26.5559" y="18.0875" size="1.016" layer="25">方向厳守</text>
-<text x="78.394571875" y="75.2156875" size="1.6764" layer="25" font="vector" rot="SR0">Axion 1.0 for</text>
+<text x="31.8333125" y="2.531571875" size="1.6764" layer="25" font="vector" rot="SR90">Axion 1.0</text>
 <dimension x1="0" y1="80.55" x2="0" y2="0" x3="-10.16" y3="40.275" textsize="1.27" layer="27"/>
 <dimension x1="0" y1="80.55" x2="100" y2="80.55" x3="50" y3="88.9" textsize="1.27" layer="27"/>
 <dimension x1="0" y1="0" x2="37.5" y2="0" x3="18.75" y3="-5.08" textsize="1.27" layer="27"/>
@@ -180,12 +180,12 @@
 <text x="8.776715625" y="65.491109375" size="0.4064" layer="25">+7.2V</text>
 <text x="10.97559375" y="65.491109375" size="0.4064" layer="25">AVCC</text>
 <text x="13.28623125" y="65.453771875" size="0.4064" layer="25">DVCC</text>
-<text x="55.23438125" y="41.39385" size="0.4064" layer="25">SCL</text>
-<text x="66.023946875" y="40.333675" size="0.4064" layer="25">SDA</text>
-<text x="98.213725" y="69.028196875" size="0.8128" layer="25" font="vector" rot="R90">SERIAL</text>
-<text x="98.628709375" y="25.09011875" size="0.8128" layer="25" font="vector" rot="R90">OTG</text>
+<text x="55.96938125" y="42.49585" size="0.8" layer="25">SCL</text>
+<text x="64.188946875" y="37.983675" size="0.8" layer="25">SDA</text>
+<text x="98.077725" y="69.028196875" size="0.8128" layer="25" font="vector" rot="R90">SERIAL</text>
+<text x="98.248709375" y="59.83311875" size="0.8128" layer="25" font="vector" rot="R90">OTG</text>
 <text x="44.750990625" y="62.658753125" size="2.54" layer="25" font="vector">Intel Edison</text>
-<text x="63.2244125" y="1.21285" size="0.8128" layer="25" font="vector">v1.0.0 2017/10/15</text>
+<text x="75.0224125" y="1.08985" size="0.8128" layer="26" font="vector" rot="MR0">v1.0.0 2017/10/15</text>
 <dimension x1="62.5" y1="39.5" x2="62.5" y2="0" x3="109.19968125" y3="19.75" textsize="1.778" layer="27"/>
 <dimension x1="95" y1="52" x2="96.02" y2="50.9" x3="102.0211375" y3="57.4876" textsize="1.778" layer="27"/>
 <dimension x1="95" y1="17" x2="100" y2="17" x3="97.5" y3="-8.830275" textsize="1.778" layer="27"/>
@@ -9645,7 +9645,10 @@ design rules under a new name.</description>
 <element name="C23" library="resistor" package="E2-5" value="10u" x="30.4182" y="54.3366" rot="R90"/>
 <element name="C3" library="resistor" package="C1608" value="0.1u" x="23.1267" y="66.8909" rot="MR0"/>
 <element name="C4" library="resistor" package="E2-5" value="33u" x="29.0576" y="63.8429" rot="R90"/>
-<element name="C5" library="resistor" package="E2-5" value="33u" x="12.319" y="70.6374" rot="R90"/>
+<element name="C5" library="resistor" package="E2-5" value="33u" x="12.319" y="70.6374" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.4236" y="72.158" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="14.478" y="73.1774" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="C6" library="resistor" package="C1608" value="0.1u" x="5.8801" y="73.5203" rot="MR180"/>
 <element name="C7" library="resistor" package="C1608" value="0.1u" x="72.9603" y="58.9495" rot="R90"/>
 <element name="C8" library="resistor" package="C1608" value="0.1u" x="29.8069" y="68.453" rot="MR0"/>
@@ -9707,11 +9710,11 @@ design rules under a new name.</description>
 <element name="R8" library="resistor" package="R0603" value="220" x="78.2955" y="8.89"/>
 <element name="R9" library="resistor" package="R0603" value="220" x="78.2955" y="39.37"/>
 <element name="S1" library="switch" package="TL3XPO" value="TL32PO" x="2.9083" y="42.9117" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.823553125" y="37.73931875" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="7.346553125" y="37.96131875" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="7.784590625" y="41.008984375" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U$1" library="y-modify_logos" package="Y-MODIFY" value="Y-MODIFY" x="30.295215625" y="23.5133" rot="R90"/>
-<element name="U$2" library="y-modify_logos" package="YAMAX" value="YAMAX" x="78.566121875" y="68.886259375"/>
+<element name="U$1" library="y-modify_logos" package="Y-MODIFY" value="Y-MODIFY" x="28.414215625" y="24.4563" rot="R90"/>
+<element name="U$2" library="y-modify_logos" package="YAMAX" value="YAMAX" x="96.641740625" y="24.439121875" rot="R90"/>
 <element name="U$4" library="y-modify_logos" package="MON" value="MON" x="11.1738625" y="46.485271875"/>
 <element name="U1" library="adafruit" package="TSSOP28" value="" x="32.6888" y="33.6659" rot="R270"/>
 <element name="U2" library="SparkFun-Boards" package="EDISON_DAUGHTER" value="Intel Edison" x="75.0428" y="49.1583" rot="R90"/>
@@ -9789,16 +9792,25 @@ design rules under a new name.</description>
 <element name="C24" library="resistor" package="C1608" value="220p" x="38.515" y="47.979" rot="MR90"/>
 <element name="R41" library="resistor" package="R0603" value="5.6k" x="8.11" y="10.98" rot="MR180"/>
 <element name="X3" library="audio-connectors" package="ST-005-G" value="ST-005-G" x="-4.21" y="4.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.944678125" y="2.107040625" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="12.370678125" y="2.139040625" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="8.79" y="10.12" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C25" library="resistor" package="E2-5" value="1u" x="8.08" y="32.83" rot="R270"/>
-<element name="C30" library="resistor" package="E2-5" value="1u" x="2.58" y="31.8" rot="R270"/>
+<element name="C30" library="resistor" package="E2-5" value="1u" x="2.58" y="31.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="0.762" y="29.324" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="0.421" y="29.26" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="C31" library="resistor" package="C0805" value="220p" x="6.08" y="27.09" rot="MR270"/>
 <element name="C36" library="resistor" package="C0805" value="220p" x="2.51" y="24.12" rot="MR180"/>
-<element name="R42" library="resistor" package="R0603" value="5.6k" x="5.45" y="5.43" rot="MR0"/>
+<element name="R42" library="resistor" package="R0603" value="5.6k" x="5.45" y="5.43" smashed="yes" rot="MR0">
+<attribute name="NAME" x="5.894" y="3.358" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="6.085" y="3.525" size="1.27" layer="28" rot="MR0"/>
+</element>
 <element name="R43" library="resistor" package="R0603" value="5.6k" x="2.68" y="11.2" rot="MR180"/>
-<element name="R44" library="resistor" package="R0603" value="5.6k" x="9.07" y="24.87" rot="MR90"/>
+<element name="R44" library="resistor" package="R0603" value="5.6k" x="9.07" y="24.87" smashed="yes" rot="MR90">
+<attribute name="NAME" x="7.03" y="21.783" size="1.27" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="7.165" y="24.235" size="1.27" layer="28" rot="MR90"/>
+</element>
 <element name="C26" library="resistor" package="E2-5" value="10u" x="25.23" y="48.78" rot="R180"/>
 <element name="R26" library="resistor" package="R0603" value="47k" x="16.09" y="55.23" rot="MR90"/>
 <element name="JP27" library="pinhead" package="1X02" value="PCTRL" x="61.495940625" y="78.04911875" smashed="yes" rot="R180">
